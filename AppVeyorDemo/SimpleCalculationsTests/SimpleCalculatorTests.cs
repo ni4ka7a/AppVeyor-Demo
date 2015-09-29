@@ -18,5 +18,11 @@
             var result = calculator.Add(firstNumber, secondNumber);
             Assert.AreEqual(expectedResult, result, "The result is {0}, which is incorrect value", result);
         }
+
+        [TestMethod]
+        public void FailingTest()
+        {
+            Assert.Fail();
+        }
     }
 }
