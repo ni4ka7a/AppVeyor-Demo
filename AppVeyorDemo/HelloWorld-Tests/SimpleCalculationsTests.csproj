@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld\HelloWorld.csproj">
+    <ProjectReference Include="..\HelloWorld\SimpleCalculations.csproj">
       <Project>{08ded18f-9e2f-4d0d-93b4-94387f9121ff}</Project>
-      <Name>HelloWorld</Name>
+      <Name>SimpleCalculations</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
