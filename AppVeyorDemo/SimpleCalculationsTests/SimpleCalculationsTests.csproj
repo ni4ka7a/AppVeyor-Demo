@@ -6,8 +6,8 @@
     <ProjectGuid>{1E1F9A7B-8F74-4CE3-BF57-4723C78A0929}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorld_Tests</RootNamespace>
-    <AssemblyName>HelloWorld-Tests</AssemblyName>
+    <RootNamespace>SimpleCalculationsTests</RootNamespace>
+    <AssemblyName>SimpleCalculationsTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,7 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld\SimpleCalculations.csproj">
+    <ProjectReference Include="..\SimpleCalculations\SimpleCalculations.csproj">
       <Project>{08ded18f-9e2f-4d0d-93b4-94387f9121ff}</Project>
       <Name>SimpleCalculations</Name>
     </ProjectReference>
